@@ -1,0 +1,13 @@
+POST http://localhost:4500/login
+Content-Type: application/json
+
+{
+    "email": "nzizajules@gmail.com",
+    "password": "098765"
+}
+
+###
+
+GET  http://localhost:4500/jobs
+Content-Type: application/json
+bearer {{}}
